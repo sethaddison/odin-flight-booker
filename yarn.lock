@@ -3089,6 +3089,41 @@ follow-redirects@^1.0.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
+fontsource-ibm-plex-sans@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-ibm-plex-sans/-/fontsource-ibm-plex-sans-3.0.9.tgz#dc4cee70328d41bae908a66bc61d2f4fc874a2b7"
+  integrity sha512-vDbitEli8elg49XPP7Z0wFSBTbtx9K0HmGwMVUGr3504Vyu3ONMANzDbBcyUidCNZSkmC/eqgaxmIvFZBfQUQA==
+
+fontsource-inter@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/fontsource-inter/-/fontsource-inter-3.0.5.tgz#4d645514f61921f83034ff244985374413bd019d"
+  integrity sha512-7AGbrHVjL2IcIz/Lv64IR5g0W+JuGQT/bFFF5nDD1zNOT5Ke8IMIMc+tE4rb5fCVNG2AGt0gtXH3kGLUURKY8w==
+
+fontsource-manrope@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/fontsource-manrope/-/fontsource-manrope-3.0.5.tgz#4030db348310ad792bc471fafa0565b16872eb2d"
+  integrity sha512-Arux1GA+xVti0OABOVNsJgTJ5hMvwqsSR54uUj0tPqLZkjSOVbycXyu7RlwCJHSqdylAA8HgwTLt952DA+1CtA==
+
+fontsource-montserrat@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-montserrat/-/fontsource-montserrat-3.0.9.tgz#ff614725c420839c4aefbca6f2b49c6224050991"
+  integrity sha512-kSE4GwWoEKJlIp0UyuoYtBvjKv5kwOTK7EvCwdQ7ukvKvgIK1LR5+GpZC5c/juonasNtFTKav67Zd7/C7m+a5w==
+
+fontsource-poppins@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-poppins/-/fontsource-poppins-3.0.9.tgz#b8bc8733a0de2fdb2f4d4d10b66e95c0c40ed7c7"
+  integrity sha512-STZLxqY5ueeNMb2gDd4iZVKR9CzZ5qSCp3ztldzmrs4/XbOs8yJSjX6vKWMH8uS+/ehMHlAiCJoiV2ooJ8WwQQ==
+
+fontsource-roboto-condensed@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-roboto-condensed/-/fontsource-roboto-condensed-3.0.9.tgz#7401dbf55d36be90c385aa7c847a497506b21fa7"
+  integrity sha512-dv0Hvm4AocuwKkMmXKBuHg552I07N6MC08M2jlG3Xdg8W5CQgRGIcUsewaFAdmuGdNpNHt+R3YAedABOgJbP1Q==
+
+fontsource-source-sans-pro@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-source-sans-pro/-/fontsource-source-sans-pro-3.0.9.tgz#793f426a598564961b21b913d6d32480a3484213"
+  integrity sha512-kBwOSHXR/P+oTGCdemcJM9Z7jYK1O0h+aeqq60fajP/HvhYJWTVBA1ZmKlOX+rHPARLRgfwCv6B4m1UC7bHsoA==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"

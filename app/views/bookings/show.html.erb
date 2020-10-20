@@ -1,0 +1,48 @@
+<h1>Boarding Pass</h1>
+
+<% @booking.passengers.each do |passenger| %>
+  <div class="card mt-5">
+    <div class="card-header text-center">
+      <i class="fas fa-plane-departure text-primary"></i> Odin Airlines
+    </div>
+    <div class="row no-gutters">
+      <div class="col-4">
+        <div class="card-body text-center">
+          <h4 class="display-4" style="font-size: 44px;">
+            <%= @booking.flight.departure_airport.code %>
+            <i class="fas fa-plane text-muted"
+              style="font-size: 24px;
+                      margin-bottom: 10px;">
+            </i>
+            <%= @booking.flight.arrival_airport.code %>
+          </h4>
+          <p class="text-muted">Flight OA<%= @booking.flight.id %> with Odin Airlines</p>
+        </div>
+      </div>
+      <div class="col-2" style="border-left: 2px dashed #ddd;">
+        <div class="card-body">
+          <p class="text-muted">Passenger</p>
+          <h4> <%= passenger.name.titleize %> </h4>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card-body">
+          <p class="text-muted">Flight Date</p>
+          <h4> <%= @booking.flight.date.strftime('%m/%d/%y') %> </h4>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card-body">
+          <p class="text-muted">Boarding Time</p>
+          <h4> <%= @booking.flight.time.strftime('%l:%M %p') %> </h4>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card-body">
+          <p class="text-muted">Duration</p>
+          <h4> <%= @booking.flight.duration %> Mins </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

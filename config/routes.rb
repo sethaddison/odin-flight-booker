@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  root 'flights#search'
+  get '/search', to: 'flights#search', as: :search
+  get '/find_booking', to: 'bookings#find_booking'
+  resources :airports
+  resources :flights
+  resources :bookings
 end

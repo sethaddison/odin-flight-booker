@@ -1,0 +1,11 @@
+<h1 class="mb-3">Find My Booking</h1>
+
+<%= form_with url: '/find_booking', method: :get, local: true do %>
+  <%= hidden_field_tag :find_booking, true %>
+  <div class="input-group">
+    <%= text_field_tag :booking_id, "", placeholder: "Enter your booking ID (or try 1)", class: "form-control" %>
+    <div class="input-group-append">
+      <%= submit_tag "Find My Booking", class: "btn btn-primary" %>
+    </div>
+  </div>
+<% end %>

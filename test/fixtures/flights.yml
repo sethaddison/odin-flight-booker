@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  duration: 1
+  date: 2020-10-18
+  time: 2020-10-18 21:31:30
+
+two:
+  duration: 1
+  date: 2020-10-18
+  time: 2020-10-18 21:31:30
